@@ -20,7 +20,15 @@ Before you begin, ensure you have the following installed:
    ```bash 
     npm install
    ```
-
+4. Navigate to the frontend directory:
+   ```bash
+   cd frontend
+   ```
+5. install dependencies:
+   ```bash 
+    npm install
+   ```
+   
 ## Configuration
 change the .env variables with your credentials
 ```bash
@@ -31,7 +39,13 @@ DB_NAME=auth
 JWT_SECRET=your_jwt_secret
 ```
 
-## Running the Server
+## Running the Backend
+```bash
+npm run dev
+```
+
+
+## Running the Frontend
 ```bash
 npm run dev
 ```
