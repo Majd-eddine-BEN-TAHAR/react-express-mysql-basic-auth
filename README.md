@@ -23,11 +23,13 @@ Before you begin, ensure you have the following installed:
 
 ## Configuration
 change the .env variables with your credentials
+```bash
 DB_HOST=localhost
 DB_USER=your_database_username
 DB_PASSWORD=your_database_password
 DB_NAME=auth
 JWT_SECRET=your_jwt_secret
+```
 
 ## Running the Server
 ```bash
