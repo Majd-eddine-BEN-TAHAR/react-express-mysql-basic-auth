@@ -1,4 +1,4 @@
-# Backend Server for React-Express Authentication Project
+# React-ExpressJS Authentication Project
 
 This is the backend server for a React-Express authentication project. It provides APIs for user registration, login, and role-based access control.
 
