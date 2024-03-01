@@ -16,8 +16,7 @@ Before you begin, ensure you have the following installed:
    ```bash
    cd backend
    ```
-3. 
-```bash 
+3. ```bash 
     npm install
 ```
 
