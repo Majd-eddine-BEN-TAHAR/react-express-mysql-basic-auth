@@ -16,9 +16,10 @@ Before you begin, ensure you have the following installed:
    ```bash
    cd backend
    ```
-3. ```bash 
+3. install dependencies:
+   ```bash 
     npm install
-```
+   ```
 
 ## Configuration
 change the .env variables with your credentials
