@@ -6,10 +6,10 @@ const path = require("path"); // Path module for handling file paths
 
 // Set up a connection to the MySQL database
 const connection = mysql.createConnection({
-  host: "localhost", // Database host
-  user: "root", // Database username
-  password: "", // Database password
-  database: "auth", // Database name
+  host: process.env.DB_HOST,
+  user: process.env.DB_USER,
+  password: process.env.DB_PASSWORD,
+  database: process.env.DB_NAME,
   multipleStatements: true, // Enable execution of multiple SQL statements in one query
 });
 
